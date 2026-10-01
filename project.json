@@ -1,0 +1,68 @@
+{
+  "name": "SKED_NOHExtractor",
+  "projectId": "9850c187-276c-494a-8718-4c0f93151b99",
+  "description": "The overall solution is built to accommodate three possible NOH input formats (email body text, PDF attachment, Word attachment) and an AI extraction agent to extract fieldsThe overall solution is built to accommodate three possible NOH input formats (email body text, PDF attachment, Word attachment) and an AI extraction agent to extract fields",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Database.Activities": "[2.1.1]",
+    "UiPath.Excel.Activities": "[3.6.1]",
+    "UiPath.Form.Activities": "[26.4.0]",
+    "UiPath.FormActivityLibrary": "[2.0.8]",
+    "UiPath.IntegrationService.Activities": "[1.30.0]",
+    "UiPath.MicrosoftOffice365.Activities": "[3.10.10]",
+    "UiPath.PDF.Activities": "[4.3.0]",
+    "UiPath.Persistence.Activities": "[1.6.4]",
+    "UiPath.System.Activities": "[26.6.2]",
+    "UiPath.UIAutomation.Activities": "[26.10.1]",
+    "UiPath.Word.Activities": "[2.6.1]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "24.10.12.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": true,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "d28a08ca-be20-48b9-811b-dafa5c0b9c3d",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

@@ -1,0 +1,117 @@
+{
+  "DisplayName": "Main",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_OrchestratorQueueName",
+      "DisplayName": "in_OrchestratorQueueName",
+      "Category": null,
+      "Tooltip": "Allows the Orchestrator queue name to be passed as an argument, instead of only being defined in the configuration file.",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_OrchestratorQueueFolder",
+      "DisplayName": "in_OrchestratorQueueFolder",
+      "Category": null,
+      "Tooltip": "Allows the Orchestrator folder name where the queue is created to be passed as an argument, instead of only being defined in the configuration file.",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_ConfigStorageFilePath",
+      "DisplayName": "in_ConfigStorageFilePath",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "Config_NOHExtractor.xlsx",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_ConfigStorageBucket",
+      "DisplayName": "in_ConfigStorageBucket",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "\r\nSKED_NOHExtractor",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_Account",
+      "DisplayName": "in_Account",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "ramakrishna.tummala@hcad.org",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_ApplicationID",
+      "DisplayName": "in_ApplicationID",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "0cb320b8-ebbc-48aa-a061-32cc83ddb434",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_TenantID",
+      "DisplayName": "in_TenantID",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "042aa4f9-b3ef-4000-85ef-3f0a5556f04c",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_ToEmailList",
+      "DisplayName": "in_ToEmailList",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "ramakrishna.tummala@hcad.org",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_CcEmailList",
+      "DisplayName": "in_CcEmailList",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "ramakrishna.tummala@hcad.org,ramakrishna.tummala@yash.com",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}
